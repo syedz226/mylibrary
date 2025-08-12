@@ -12,7 +12,7 @@ def CDeploy(ip)
 }
 def CT(ft)
 {
-  git 'https://github.com/IntelliqDevops/${ft}.git'
+  git "https://github.com/IntelliqDevops/${ft}.git"
   sh 'java -jar /home/ubuntu/.jenkins/workspace/DP1SCP/testing.jar'
 }
 def CDelivery(ip)
